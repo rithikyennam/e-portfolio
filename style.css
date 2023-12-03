@@ -8,7 +8,7 @@ Released for free under the Creative Commons Attribution License
 body {
     margin: 0;
     padding: 0;
-    background: #E5E6DD; /* Adjusted back to a neutral color for better contrast */
+    background: linear-gradient(to bottom, #0021A5, #FF4E00);
     font-family: 'Oxygen', sans-serif;
     font-size: 13px;
     color: #333333; /* Darker color for better readability */
