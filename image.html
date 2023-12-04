@@ -15,9 +15,15 @@
     }
 
     .project {
-        position: relative;
         width: 48%; /* Adjust as needed */
         box-sizing: border-box;
+        position: relative;
+        border-right: 2px solid #000; /* Adjust line thickness and color as needed */
+        padding-right: 15px; /* Adjust padding as needed */
+    }
+
+    .project:last-child {
+        border-right: none; /* Remove border for the last project */
     }
 
     .project img {
@@ -25,16 +31,6 @@
         height: auto;
         display: block;
         margin: 0 auto;
-    }
-
-    .project::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        right: 0;
-        width: 1px;
-        background-color: #000; /* Adjust line color as needed */
     }
 </style>
 <body>
